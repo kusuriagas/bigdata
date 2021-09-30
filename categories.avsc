@@ -1,0 +1,10 @@
+{
+	"name": "categories",
+	"type": "record",
+	"fields": [
+		{"name": "category_id", "type": ["null", "string"], "default": null},
+		{"name": "category_name", "type": ["null", "string"], "default": null},
+		{"name": "description", "type": ["null", "string"], "default": null},
+		{"name": "picture", "type": ["null", "string"], "default": null}
+	]
+}
