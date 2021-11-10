@@ -1,1 +1,18 @@
-xxxxxxxxxxxxxxxxxxx
+
+Google cloud Platform
+tenemos que levantar infraestructura
+
+API y servicios: creadenciales->Crear credenciales->cuenta de servicios
+Data fusion    : Permite hacer flujos de ETL (servidor ETL)
+Composer       : Permite orquestar los flujos (servidor de wordflow)
+
+Cloud Storage : Almacen de datos
+Cluster Big data :
+Podemos hacer desarrollo desde la consola (gateway) y desde un interfaz grafica(jupyter).
+configurar nodos maestro y esclavo 
+Master node : No procesa nada solo recibe peticiones
+              machine-family->compute-optimizada-> recomendado para ML y DL 
+              memory-optimizada-> optimiza uso de memoria ram
+
+
+
