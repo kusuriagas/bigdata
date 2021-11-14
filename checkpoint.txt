@@ -1,0 +1,34 @@
+Big Data Academy - Programa de Especialización en Spark & Scala en Databricks - Sesión 7
+Aumentar el nivel de paralelismo
+identificar la potencia del cluster
+spark en una herramienta de big data
+servidores que ejecutan lo que enviamos->workers
+cuando mas df creamos mas uso de ram
+contenedor de ram y cpu->executor
+los executor se instancian en el cluster dentro de los workers
+patron de diseño
+
+1000 tb
+2000 gb
+1000 nucleos e cpu
+
+nro de executor disponibles 1000 nucleos /2 =500
+
+01 tunning de recursos para un proceso regular 5% de la potencia del cluster
+
+
+driver.memory-> gestiona la memoria del lenguaje de programacion es un estandar siempre va ser 1g
+dynamicAllocation.maxExecutors-> 20
+executor.cores->2 standar
+executor.memory-> 5 para cada maxexecutors
+overhead->1g como minimo 
+
+02 programar
+
+cuando apliques checkpoint no aplicar compression snappy
+
+
+
+
+
+
