@@ -1,6 +1,4 @@
-// Databricks notebook source
-//COPYRIGHT: BIG DATA ACADEMY [info@bigdataacademy.org]
-//AUTHOR: ALONSO MELGAREJO [alonsoraulmgs@gmail.com]
+
 
 // COMMAND ----------
 
