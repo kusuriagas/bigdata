@@ -1,3 +1,5 @@
+HDFS: gestor de disco duro
+
 
 Google cloud Platform
 tenemos que levantar infraestructura
