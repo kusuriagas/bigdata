@@ -1,4 +1,13 @@
 HDFS: gestor de disco duro
+SPARK:Motor de procesamiento
+
+Gestor de disco duro
+  Databricks:DBFS
+  Hadoop:hdfs
+
+
+
+
 
 
 Google cloud Platform
