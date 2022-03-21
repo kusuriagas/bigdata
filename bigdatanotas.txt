@@ -2,12 +2,13 @@ HDFS: gestor de disco duro
 SPARK:Motor de procesamiento que ejecuta instrucciones de forma paralelo dentro de un clouster. Las instrucciones las envia los lenguajes de programacion.
 
 
-
-
-Gestor de disco duro
-  Databricks:DBFS
-  Hadoop:hdfs
-
+Sistemas de archivos distribuidos
+gestor de disco duro
+HADOOP:hdfs
+AWS:S3
+AZURE:WASB
+GPC:GS
+Databricks:DBFS
 
 
 
