@@ -1,1 +1,14 @@
+comandos basicos
 
+listar los archivos
+%fs ls /
+
+%fs ls /FileStore
+
+crear directorios
+
+%fs mkdirs dbfs:///FileStore/dataset/Northwind/Categories
+
+eliminar 
+
+%fs rm dbfs:///FileStore/dataset/Northwind/Categories
