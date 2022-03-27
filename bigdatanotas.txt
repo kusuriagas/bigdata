@@ -1,6 +1,13 @@
 HDFS: gestor de disco duro
 SPARK:Motor de procesamiento que ejecuta instrucciones de forma paralelo dentro de un clouster. Las instrucciones las envia los lenguajes de programacion.
 
+comandos 
+hostname -f cluster-bigdata-m.us-central1-b.c.causal-medium-345218.internal
+hostname cluster-bigdata-m
+hadoop version  Hadoop 2.10.1
+whoami kusuriagasgpc
+
+
 
 Sistemas de archivos distribuidos
 gestor de disco duro
