@@ -1,0 +1,6 @@
+habilitar los puertos
+
+http://34.133.0.2:8123/tree/GCS  notebook
+http://34.133.0.2:8080/#/        zepelin
+http://34.133.0.2:8088/cluster	 yarn
+http://34.133.0.2:9870/explorer.html#/ hdfs
