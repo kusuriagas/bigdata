@@ -1,0 +1,1065 @@
+root - INFO - Obtiene variables de ambiente
+root - INFO - Obtiene variables de /desa/bcp/ctrl3/cfg/config_ejecuta.ini
+root - INFO - ['/desa/bcp/ctrl3/ksh/datafactory/python/PRC_EjecutaJobs_ADF_Pipeline_EXE.py', '/desa/bcp/ctrl3/cfg/config_ejecuta.ini', 'pl_LHCL_CAPS_IPCWBMA6', '/desa/bcp/ctrl3/tmp/CAPS_IPCWBMA6_CRDV_1800-01-02_20240425_155253.adf_json']
+root - INFO - Comienza main lanzador ADF
+root - INFO - Obtiene cliente de ADF exitosamente
+root - INFO - Ejecutando python ADF REST
+root - INFO - Ejecutando pipeline: pl_LHCL_CAPS_IPCWBMA6 en Azure Data Factory dafacu1lhcld01
+azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://login.microsoftonline.com:443/5d93ebcc-f769-4380-8b7e-289fc972da1b/v2.0/.well-known/openid-configuration'
+Request method: 'GET'
+Request headers:
+    'User-Agent': 'azsdk-python-identity/1.12.0 Python/3.8.18 (Linux-3.10.0-1160.105.1.el7.x86_64-x86_64-with-glibc2.2.5)'
+No body was attached to the request
+azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Cache-Control': 'max-age=86400, private'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Strict-Transport-Security': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Access-Control-Allow-Origin': 'REDACTED'
+    'Access-Control-Allow-Methods': 'REDACTED'
+    'P3P': 'REDACTED'
+    'x-ms-request-id': 'b0518686-94a3-4788-b08e-adc4c1e8dd00'
+    'x-ms-ests-server': 'REDACTED'
+    'x-ms-srs': 'REDACTED'
+    'X-XSS-Protection': 'REDACTED'
+    'Set-Cookie': 'REDACTED'
+    'Date': 'Thu, 25 Apr 2024 20:53:00 GMT'
+    'Content-Length': '1753'
+azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://login.microsoftonline.com/common/discovery/instance?api-version=REDACTED&authorization_endpoint=REDACTED'
+Request method: 'GET'
+Request headers:
+    'Accept': 'application/json'
+    'User-Agent': 'azsdk-python-identity/1.12.0 Python/3.8.18 (Linux-3.10.0-1160.105.1.el7.x86_64-x86_64-with-glibc2.2.5)'
+No body was attached to the request
+azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Cache-Control': 'max-age=86400, private'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Strict-Transport-Security': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Access-Control-Allow-Origin': 'REDACTED'
+    'Access-Control-Allow-Methods': 'REDACTED'
+    'P3P': 'REDACTED'
+    'x-ms-request-id': '02d53376-ff1e-46a4-9588-bb9d6e310a01'
+    'x-ms-ests-server': 'REDACTED'
+    'x-ms-srs': 'REDACTED'
+    'X-XSS-Protection': 'REDACTED'
+    'Set-Cookie': 'REDACTED'
+    'Date': 'Thu, 25 Apr 2024 20:53:00 GMT'
+    'Content-Length': '945'
+azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://login.microsoftonline.com/5d93ebcc-f769-4380-8b7e-289fc972da1b/oauth2/v2.0/token'
+Request method: 'POST'
+Request headers:
+    'Accept': 'application/json'
+    'x-client-sku': 'REDACTED'
+    'x-client-ver': 'REDACTED'
+    'x-client-os': 'REDACTED'
+    'x-client-cpu': 'REDACTED'
+    'x-ms-lib-capability': 'REDACTED'
+    'client-request-id': 'REDACTED'
+    'x-client-current-telemetry': 'REDACTED'
+    'x-client-last-telemetry': 'REDACTED'
+    'User-Agent': 'azsdk-python-identity/1.12.0 Python/3.8.18 (Linux-3.10.0-1160.105.1.el7.x86_64-x86_64-with-glibc2.2.5)'
+A body is sent with the request
+azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Cache-Control': 'no-store, no-cache'
+    'Pragma': 'no-cache'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Expires': '-1'
+    'Strict-Transport-Security': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'P3P': 'REDACTED'
+    'client-request-id': 'REDACTED'
+    'x-ms-request-id': '3acb6e3c-c42a-46ca-9f10-24221705c200'
+    'x-ms-ests-server': 'REDACTED'
+    'x-ms-clitelem': 'REDACTED'
+    'x-ms-srs': 'REDACTED'
+    'X-XSS-Protection': 'REDACTED'
+    'Set-Cookie': 'REDACTED'
+    'Date': 'Thu, 25 Apr 2024 20:53:01 GMT'
+    'Content-Length': '1463'
+azure.identity._internal.get_token_mixin - INFO - CertificateCredential.get_token succeeded
+azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://management.azure.com/subscriptions/096184b6-7b9d-468d-8fc8-fa7dad32cbb2/resourceGroups/RSGRCU1LHCLD01/providers/Microsoft.DataFactory/factories/dafacu1lhcld01/pipelines?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'Accept': 'application/json'
+    'x-ms-client-request-id': 'cd0bb8ee-0345-11ef-9d0b-2cd02de65b34'
+    'User-Agent': 'azsdk-python-mgmt-datafactory/2.10.0 Python/3.8.18 (Linux-3.10.0-1160.105.1.el7.x86_64-x86_64-with-glibc2.2.5)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Expires': '-1'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-ratelimit-remaining-subscription-reads': '11987'
+    'x-ms-request-id': '0c67941d-51f5-417c-ac43-978e7ae5c36c'
+    'x-ms-routing-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'X-Cache': 'REDACTED'
+    'X-MSEdge-Ref': 'REDACTED'
+    'Date': 'Thu, 25 Apr 2024 20:53:02 GMT'
+    'Content-Length': '868918'
+azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://management.azure.com/subscriptions/096184b6-7b9d-468d-8fc8-fa7dad32cbb2/resourceGroups/RSGRCU1LHCLD01/providers/Microsoft.DataFactory/factories/dafacu1lhcld01/pipelines?api-version=REDACTED&$skipToken=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'cf8fc506-0345-11ef-9d0b-2cd02de65b34'
+    'User-Agent': 'azsdk-python-mgmt-datafactory/2.10.0 Python/3.8.18 (Linux-3.10.0-1160.105.1.el7.x86_64-x86_64-with-glibc2.2.5)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Expires': '-1'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-ratelimit-remaining-subscription-reads': '11969'
+    'x-ms-request-id': 'df402724-33c6-4e7a-813e-ded98cdf1c02'
+    'x-ms-routing-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'X-Cache': 'REDACTED'
+    'X-MSEdge-Ref': 'REDACTED'
+    'Date': 'Thu, 25 Apr 2024 20:53:05 GMT'
+    'Content-Length': '736308'
+azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://management.azure.com/subscriptions/096184b6-7b9d-468d-8fc8-fa7dad32cbb2/resourceGroups/RSGRCU1LHCLD01/providers/Microsoft.DataFactory/factories/dafacu1lhcld01/pipelines?api-version=REDACTED&$skipToken=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'd0ae70ea-0345-11ef-9d0b-2cd02de65b34'
+    'User-Agent': 'azsdk-python-mgmt-datafactory/2.10.0 Python/3.8.18 (Linux-3.10.0-1160.105.1.el7.x86_64-x86_64-with-glibc2.2.5)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Expires': '-1'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-ratelimit-remaining-subscription-reads': '11978'
+    'x-ms-request-id': 'e45abda8-62d1-4ee6-b94a-713ba4132ece'
+    'x-ms-routing-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'X-Cache': 'REDACTED'
+    'X-MSEdge-Ref': 'REDACTED'
+    'Date': 'Thu, 25 Apr 2024 20:53:06 GMT'
+    'Content-Length': '698110'
+azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://management.azure.com/subscriptions/096184b6-7b9d-468d-8fc8-fa7dad32cbb2/resourceGroups/RSGRCU1LHCLD01/providers/Microsoft.DataFactory/factories/dafacu1lhcld01/pipelines?api-version=REDACTED&$skipToken=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'd1ace4e0-0345-11ef-9d0b-2cd02de65b34'
+    'User-Agent': 'azsdk-python-mgmt-datafactory/2.10.0 Python/3.8.18 (Linux-3.10.0-1160.105.1.el7.x86_64-x86_64-with-glibc2.2.5)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Expires': '-1'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-ratelimit-remaining-subscription-reads': '11941'
+    'x-ms-request-id': '4b653b41-16ad-4d27-bc19-349d44479766'
+    'x-ms-routing-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'X-Cache': 'REDACTED'
+    'X-MSEdge-Ref': 'REDACTED'
+    'Date': 'Thu, 25 Apr 2024 20:53:08 GMT'
+    'Content-Length': '409844'
+azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://management.azure.com/subscriptions/096184b6-7b9d-468d-8fc8-fa7dad32cbb2/resourceGroups/RSGRCU1LHCLD01/providers/Microsoft.DataFactory/factories/dafacu1lhcld01/pipelines?api-version=REDACTED&$skipToken=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'd27c3ed4-0345-11ef-9d0b-2cd02de65b34'
+    'User-Agent': 'azsdk-python-mgmt-datafactory/2.10.0 Python/3.8.18 (Linux-3.10.0-1160.105.1.el7.x86_64-x86_64-with-glibc2.2.5)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Expires': '-1'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-ratelimit-remaining-subscription-reads': '11988'
+    'x-ms-request-id': 'c5bcc8d8-8a1e-4fb0-a421-f5c86cc937a7'
+    'x-ms-routing-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'X-Cache': 'REDACTED'
+    'X-MSEdge-Ref': 'REDACTED'
+    'Date': 'Thu, 25 Apr 2024 20:53:09 GMT'
+    'Content-Length': '754130'
+azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://management.azure.com/subscriptions/096184b6-7b9d-468d-8fc8-fa7dad32cbb2/resourceGroups/RSGRCU1LHCLD01/providers/Microsoft.DataFactory/factories/dafacu1lhcld01/pipelines?api-version=REDACTED&$skipToken=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'd37e97a0-0345-11ef-9d0b-2cd02de65b34'
+    'User-Agent': 'azsdk-python-mgmt-datafactory/2.10.0 Python/3.8.18 (Linux-3.10.0-1160.105.1.el7.x86_64-x86_64-with-glibc2.2.5)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Expires': '-1'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-ratelimit-remaining-subscription-reads': '11968'
+    'x-ms-request-id': '45d7471a-74c6-4246-8ac8-046818acd0cb'
+    'x-ms-routing-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'X-Cache': 'REDACTED'
+    'X-MSEdge-Ref': 'REDACTED'
+    'Date': 'Thu, 25 Apr 2024 20:53:11 GMT'
+    'Content-Length': '838715'
+azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://management.azure.com/subscriptions/096184b6-7b9d-468d-8fc8-fa7dad32cbb2/resourceGroups/RSGRCU1LHCLD01/providers/Microsoft.DataFactory/factories/dafacu1lhcld01/pipelines?api-version=REDACTED&$skipToken=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'd493a6ee-0345-11ef-9d0b-2cd02de65b34'
+    'User-Agent': 'azsdk-python-mgmt-datafactory/2.10.0 Python/3.8.18 (Linux-3.10.0-1160.105.1.el7.x86_64-x86_64-with-glibc2.2.5)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Expires': '-1'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-ratelimit-remaining-subscription-reads': '11940'
+    'x-ms-request-id': '3bebbef9-eb9b-4d5b-9465-01b3ab274161'
+    'x-ms-routing-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'X-Cache': 'REDACTED'
+    'X-MSEdge-Ref': 'REDACTED'
+    'Date': 'Thu, 25 Apr 2024 20:53:13 GMT'
+    'Content-Length': '873336'
+azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://management.azure.com/subscriptions/096184b6-7b9d-468d-8fc8-fa7dad32cbb2/resourceGroups/RSGRCU1LHCLD01/providers/Microsoft.DataFactory/factories/dafacu1lhcld01/pipelines?api-version=REDACTED&$skipToken=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'd5f13cf4-0345-11ef-9d0b-2cd02de65b34'
+    'User-Agent': 'azsdk-python-mgmt-datafactory/2.10.0 Python/3.8.18 (Linux-3.10.0-1160.105.1.el7.x86_64-x86_64-with-glibc2.2.5)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Expires': '-1'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-ratelimit-remaining-subscription-reads': '11978'
+    'x-ms-request-id': '5dd36268-fde3-40a8-83ce-9e28eb7a1678'
+    'x-ms-routing-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'X-Cache': 'REDACTED'
+    'X-MSEdge-Ref': 'REDACTED'
+    'Date': 'Thu, 25 Apr 2024 20:53:16 GMT'
+    'Content-Length': '883919'
+azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://management.azure.com/subscriptions/096184b6-7b9d-468d-8fc8-fa7dad32cbb2/resourceGroups/RSGRCU1LHCLD01/providers/Microsoft.DataFactory/factories/dafacu1lhcld01/pipelines?api-version=REDACTED&$skipToken=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'd760e922-0345-11ef-9d0b-2cd02de65b34'
+    'User-Agent': 'azsdk-python-mgmt-datafactory/2.10.0 Python/3.8.18 (Linux-3.10.0-1160.105.1.el7.x86_64-x86_64-with-glibc2.2.5)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Expires': '-1'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-ratelimit-remaining-subscription-reads': '11967'
+    'x-ms-request-id': '334f132f-e3eb-48a0-b6c1-b869636ba68b'
+    'x-ms-routing-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'X-Cache': 'REDACTED'
+    'X-MSEdge-Ref': 'REDACTED'
+    'Date': 'Thu, 25 Apr 2024 20:53:18 GMT'
+    'Content-Length': '883229'
+azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://management.azure.com/subscriptions/096184b6-7b9d-468d-8fc8-fa7dad32cbb2/resourceGroups/RSGRCU1LHCLD01/providers/Microsoft.DataFactory/factories/dafacu1lhcld01/pipelines?api-version=REDACTED&$skipToken=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'd8768fba-0345-11ef-9d0b-2cd02de65b34'
+    'User-Agent': 'azsdk-python-mgmt-datafactory/2.10.0 Python/3.8.18 (Linux-3.10.0-1160.105.1.el7.x86_64-x86_64-with-glibc2.2.5)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Expires': '-1'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-ratelimit-remaining-subscription-reads': '11985'
+    'x-ms-request-id': '897fb0ca-5d09-44db-925f-41eeebf5608c'
+    'x-ms-routing-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'X-Cache': 'REDACTED'
+    'X-MSEdge-Ref': 'REDACTED'
+    'Date': 'Thu, 25 Apr 2024 20:53:20 GMT'
+    'Content-Length': '767131'
+azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://management.azure.com/subscriptions/096184b6-7b9d-468d-8fc8-fa7dad32cbb2/resourceGroups/RSGRCU1LHCLD01/providers/Microsoft.DataFactory/factories/dafacu1lhcld01/pipelines?api-version=REDACTED&$skipToken=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'd99d9ece-0345-11ef-9d0b-2cd02de65b34'
+    'User-Agent': 'azsdk-python-mgmt-datafactory/2.10.0 Python/3.8.18 (Linux-3.10.0-1160.105.1.el7.x86_64-x86_64-with-glibc2.2.5)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Expires': '-1'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-ratelimit-remaining-subscription-reads': '11985'
+    'x-ms-request-id': '02ed14c3-80f5-4893-8bb1-355a001a011d'
+    'x-ms-routing-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'X-Cache': 'REDACTED'
+    'X-MSEdge-Ref': 'REDACTED'
+    'Date': 'Thu, 25 Apr 2024 20:53:22 GMT'
+    'Content-Length': '573393'
+azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://management.azure.com/subscriptions/096184b6-7b9d-468d-8fc8-fa7dad32cbb2/resourceGroups/RSGRCU1LHCLD01/providers/Microsoft.DataFactory/factories/dafacu1lhcld01/pipelines?api-version=REDACTED&$skipToken=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'dd103756-0345-11ef-9d0b-2cd02de65b34'
+    'User-Agent': 'azsdk-python-mgmt-datafactory/2.10.0 Python/3.8.18 (Linux-3.10.0-1160.105.1.el7.x86_64-x86_64-with-glibc2.2.5)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Expires': '-1'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-ratelimit-remaining-subscription-reads': '11980'
+    'x-ms-request-id': '6aaff94f-d8c3-4aca-9da9-1b79df6ba2fc'
+    'x-ms-routing-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'X-Cache': 'REDACTED'
+    'X-MSEdge-Ref': 'REDACTED'
+    'Date': 'Thu, 25 Apr 2024 20:53:27 GMT'
+    'Content-Length': '515617'
+azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://management.azure.com/subscriptions/096184b6-7b9d-468d-8fc8-fa7dad32cbb2/resourceGroups/RSGRCU1LHCLD01/providers/Microsoft.DataFactory/factories/dafacu1lhcld01/pipelines?api-version=REDACTED&$skipToken=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'de058332-0345-11ef-9d0b-2cd02de65b34'
+    'User-Agent': 'azsdk-python-mgmt-datafactory/2.10.0 Python/3.8.18 (Linux-3.10.0-1160.105.1.el7.x86_64-x86_64-with-glibc2.2.5)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Expires': '-1'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-ratelimit-remaining-subscription-reads': '11977'
+    'x-ms-request-id': 'c21805e8-0485-4ff7-aba3-82eb05f34ca6'
+    'x-ms-routing-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'X-Cache': 'REDACTED'
+    'X-MSEdge-Ref': 'REDACTED'
+    'Date': 'Thu, 25 Apr 2024 20:53:28 GMT'
+    'Content-Length': '685509'
+azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://management.azure.com/subscriptions/096184b6-7b9d-468d-8fc8-fa7dad32cbb2/resourceGroups/RSGRCU1LHCLD01/providers/Microsoft.DataFactory/factories/dafacu1lhcld01/pipelines?api-version=REDACTED&$skipToken=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'def22142-0345-11ef-9d0b-2cd02de65b34'
+    'User-Agent': 'azsdk-python-mgmt-datafactory/2.10.0 Python/3.8.18 (Linux-3.10.0-1160.105.1.el7.x86_64-x86_64-with-glibc2.2.5)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Expires': '-1'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-ratelimit-remaining-subscription-reads': '11973'
+    'x-ms-request-id': '83cd0269-250f-42c6-ae57-f8aa9e77e4c1'
+    'x-ms-routing-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'X-Cache': 'REDACTED'
+    'X-MSEdge-Ref': 'REDACTED'
+    'Date': 'Thu, 25 Apr 2024 20:53:31 GMT'
+    'Content-Length': '655098'
+azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://management.azure.com/subscriptions/096184b6-7b9d-468d-8fc8-fa7dad32cbb2/resourceGroups/RSGRCU1LHCLD01/providers/Microsoft.DataFactory/factories/dafacu1lhcld01/pipelines?api-version=REDACTED&$skipToken=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'e0249e5a-0345-11ef-9d0b-2cd02de65b34'
+    'User-Agent': 'azsdk-python-mgmt-datafactory/2.10.0 Python/3.8.18 (Linux-3.10.0-1160.105.1.el7.x86_64-x86_64-with-glibc2.2.5)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Expires': '-1'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-ratelimit-remaining-subscription-reads': '11990'
+    'x-ms-request-id': 'd6d3da10-871e-4590-b885-5516a80da9ff'
+    'x-ms-routing-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'X-Cache': 'REDACTED'
+    'X-MSEdge-Ref': 'REDACTED'
+    'Date': 'Thu, 25 Apr 2024 20:53:32 GMT'
+    'Content-Length': '543112'
+azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://management.azure.com/subscriptions/096184b6-7b9d-468d-8fc8-fa7dad32cbb2/resourceGroups/RSGRCU1LHCLD01/providers/Microsoft.DataFactory/factories/dafacu1lhcld01/pipelines?api-version=REDACTED&$skipToken=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'e114874e-0345-11ef-9d0b-2cd02de65b34'
+    'User-Agent': 'azsdk-python-mgmt-datafactory/2.10.0 Python/3.8.18 (Linux-3.10.0-1160.105.1.el7.x86_64-x86_64-with-glibc2.2.5)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Expires': '-1'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-ratelimit-remaining-subscription-reads': '11979'
+    'x-ms-request-id': '9545cba0-9b82-407c-a95a-34bae644d711'
+    'x-ms-routing-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'X-Cache': 'REDACTED'
+    'X-MSEdge-Ref': 'REDACTED'
+    'Date': 'Thu, 25 Apr 2024 20:53:34 GMT'
+    'Content-Length': '460045'
+azure.mgmt.datafactory._serialization - WARNING - Subtype value ParquetReadSettings has no mapping, use base class FormatReadSettings.
+azure.mgmt.datafactory._serialization - WARNING - Subtype value ParquetReadSettings has no mapping, use base class FormatReadSettings.
+azure.mgmt.datafactory._serialization - WARNING - Subtype value ParquetReadSettings has no mapping, use base class FormatReadSettings.
+azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://management.azure.com/subscriptions/096184b6-7b9d-468d-8fc8-fa7dad32cbb2/resourceGroups/RSGRCU1LHCLD01/providers/Microsoft.DataFactory/factories/dafacu1lhcld01/pipelines?api-version=REDACTED&$skipToken=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'e205f232-0345-11ef-9d0b-2cd02de65b34'
+    'User-Agent': 'azsdk-python-mgmt-datafactory/2.10.0 Python/3.8.18 (Linux-3.10.0-1160.105.1.el7.x86_64-x86_64-with-glibc2.2.5)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Expires': '-1'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-ratelimit-remaining-subscription-reads': '11952'
+    'x-ms-request-id': 'fb18a0a1-9a62-4541-a782-6cd8433c088c'
+    'x-ms-routing-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'X-Cache': 'REDACTED'
+    'X-MSEdge-Ref': 'REDACTED'
+    'Date': 'Thu, 25 Apr 2024 20:53:36 GMT'
+    'Content-Length': '547363'
+azure.mgmt.datafactory._serialization - WARNING - Subtype value ParquetReadSettings has no mapping, use base class FormatReadSettings.
+azure.mgmt.datafactory._serialization - WARNING - Subtype value ParquetReadSettings has no mapping, use base class FormatReadSettings.
+azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://management.azure.com/subscriptions/096184b6-7b9d-468d-8fc8-fa7dad32cbb2/resourceGroups/RSGRCU1LHCLD01/providers/Microsoft.DataFactory/factories/dafacu1lhcld01/pipelines?api-version=REDACTED&$skipToken=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'e355ce96-0345-11ef-9d0b-2cd02de65b34'
+    'User-Agent': 'azsdk-python-mgmt-datafactory/2.10.0 Python/3.8.18 (Linux-3.10.0-1160.105.1.el7.x86_64-x86_64-with-glibc2.2.5)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Expires': '-1'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-ratelimit-remaining-subscription-reads': '11988'
+    'x-ms-request-id': '1d739b5f-cd64-48fb-bab7-291b78b5f045'
+    'x-ms-routing-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'X-Cache': 'REDACTED'
+    'X-MSEdge-Ref': 'REDACTED'
+    'Date': 'Thu, 25 Apr 2024 20:53:37 GMT'
+    'Content-Length': '524887'
+azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://management.azure.com/subscriptions/096184b6-7b9d-468d-8fc8-fa7dad32cbb2/resourceGroups/RSGRCU1LHCLD01/providers/Microsoft.DataFactory/factories/dafacu1lhcld01/pipelines?api-version=REDACTED&$skipToken=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'e4410e24-0345-11ef-9d0b-2cd02de65b34'
+    'User-Agent': 'azsdk-python-mgmt-datafactory/2.10.0 Python/3.8.18 (Linux-3.10.0-1160.105.1.el7.x86_64-x86_64-with-glibc2.2.5)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Expires': '-1'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-ratelimit-remaining-subscription-reads': '11986'
+    'x-ms-request-id': 'd4bae7bb-99ed-42b3-bbea-9d5c45db379b'
+    'x-ms-routing-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'X-Cache': 'REDACTED'
+    'X-MSEdge-Ref': 'REDACTED'
+    'Date': 'Thu, 25 Apr 2024 20:53:39 GMT'
+    'Content-Length': '830084'
+azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://management.azure.com/subscriptions/096184b6-7b9d-468d-8fc8-fa7dad32cbb2/resourceGroups/RSGRCU1LHCLD01/providers/Microsoft.DataFactory/factories/dafacu1lhcld01/pipelines?api-version=REDACTED&$skipToken=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'e540fe06-0345-11ef-9d0b-2cd02de65b34'
+    'User-Agent': 'azsdk-python-mgmt-datafactory/2.10.0 Python/3.8.18 (Linux-3.10.0-1160.105.1.el7.x86_64-x86_64-with-glibc2.2.5)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Expires': '-1'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-ratelimit-remaining-subscription-reads': '11988'
+    'x-ms-request-id': '3547e73e-ca3f-4787-8a76-1b5ddc77250e'
+    'x-ms-routing-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'X-Cache': 'REDACTED'
+    'X-MSEdge-Ref': 'REDACTED'
+    'Date': 'Thu, 25 Apr 2024 20:53:41 GMT'
+    'Content-Length': '889216'
+azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://management.azure.com/subscriptions/096184b6-7b9d-468d-8fc8-fa7dad32cbb2/resourceGroups/RSGRCU1LHCLD01/providers/Microsoft.DataFactory/factories/dafacu1lhcld01/pipelines?api-version=REDACTED&$skipToken=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'e692a0c0-0345-11ef-9d0b-2cd02de65b34'
+    'User-Agent': 'azsdk-python-mgmt-datafactory/2.10.0 Python/3.8.18 (Linux-3.10.0-1160.105.1.el7.x86_64-x86_64-with-glibc2.2.5)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Expires': '-1'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-ratelimit-remaining-subscription-reads': '11988'
+    'x-ms-request-id': '7a015da3-c534-40bf-9ab5-e2b92b0d2e29'
+    'x-ms-routing-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'X-Cache': 'REDACTED'
+    'X-MSEdge-Ref': 'REDACTED'
+    'Date': 'Thu, 25 Apr 2024 20:53:43 GMT'
+    'Content-Length': '599200'
+azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://management.azure.com/subscriptions/096184b6-7b9d-468d-8fc8-fa7dad32cbb2/resourceGroups/RSGRCU1LHCLD01/providers/Microsoft.DataFactory/factories/dafacu1lhcld01/pipelines?api-version=REDACTED&$skipToken=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'e7be0962-0345-11ef-9d0b-2cd02de65b34'
+    'User-Agent': 'azsdk-python-mgmt-datafactory/2.10.0 Python/3.8.18 (Linux-3.10.0-1160.105.1.el7.x86_64-x86_64-with-glibc2.2.5)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Expires': '-1'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-ratelimit-remaining-subscription-reads': '11987'
+    'x-ms-request-id': 'f3820d61-2b7b-4ddf-8837-f5e0cf159988'
+    'x-ms-routing-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'X-Cache': 'REDACTED'
+    'X-MSEdge-Ref': 'REDACTED'
+    'Date': 'Thu, 25 Apr 2024 20:53:45 GMT'
+    'Content-Length': '762818'
+azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://management.azure.com/subscriptions/096184b6-7b9d-468d-8fc8-fa7dad32cbb2/resourceGroups/RSGRCU1LHCLD01/providers/Microsoft.DataFactory/factories/dafacu1lhcld01/pipelines?api-version=REDACTED&$skipToken=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'e8b5014a-0345-11ef-9d0b-2cd02de65b34'
+    'User-Agent': 'azsdk-python-mgmt-datafactory/2.10.0 Python/3.8.18 (Linux-3.10.0-1160.105.1.el7.x86_64-x86_64-with-glibc2.2.5)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Expires': '-1'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-ratelimit-remaining-subscription-reads': '11984'
+    'x-ms-request-id': '0858dfd6-faa6-4cba-b45a-a878b62ae58d'
+    'x-ms-routing-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'X-Cache': 'REDACTED'
+    'X-MSEdge-Ref': 'REDACTED'
+    'Date': 'Thu, 25 Apr 2024 20:53:47 GMT'
+    'Content-Length': '764413'
+azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://management.azure.com/subscriptions/096184b6-7b9d-468d-8fc8-fa7dad32cbb2/resourceGroups/RSGRCU1LHCLD01/providers/Microsoft.DataFactory/factories/dafacu1lhcld01/pipelines?api-version=REDACTED&$skipToken=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'e9e5eb9c-0345-11ef-9d0b-2cd02de65b34'
+    'User-Agent': 'azsdk-python-mgmt-datafactory/2.10.0 Python/3.8.18 (Linux-3.10.0-1160.105.1.el7.x86_64-x86_64-with-glibc2.2.5)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Expires': '-1'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-ratelimit-remaining-subscription-reads': '11986'
+    'x-ms-request-id': '67a60812-3b1b-49cc-a75f-eba50ea1c725'
+    'x-ms-routing-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'X-Cache': 'REDACTED'
+    'X-MSEdge-Ref': 'REDACTED'
+    'Date': 'Thu, 25 Apr 2024 20:53:48 GMT'
+    'Content-Length': '591992'
+azure.mgmt.datafactory._serialization - WARNING - Subtype value ParquetReadSettings has no mapping, use base class FormatReadSettings.
+azure.mgmt.datafactory._serialization - WARNING - Subtype value ParquetReadSettings has no mapping, use base class FormatReadSettings.
+azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://management.azure.com/subscriptions/096184b6-7b9d-468d-8fc8-fa7dad32cbb2/resourceGroups/RSGRCU1LHCLD01/providers/Microsoft.DataFactory/factories/dafacu1lhcld01/pipelines?api-version=REDACTED&$skipToken=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'eacd6a80-0345-11ef-9d0b-2cd02de65b34'
+    'User-Agent': 'azsdk-python-mgmt-datafactory/2.10.0 Python/3.8.18 (Linux-3.10.0-1160.105.1.el7.x86_64-x86_64-with-glibc2.2.5)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Expires': '-1'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-ratelimit-remaining-subscription-reads': '11969'
+    'x-ms-request-id': 'af83d879-1425-4a49-9819-8da2134c9ee6'
+    'x-ms-routing-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'X-Cache': 'REDACTED'
+    'X-MSEdge-Ref': 'REDACTED'
+    'Date': 'Thu, 25 Apr 2024 20:53:50 GMT'
+    'Content-Length': '905886'
+azure.mgmt.datafactory._serialization - WARNING - Subtype value ParquetReadSettings has no mapping, use base class FormatReadSettings.
+azure.mgmt.datafactory._serialization - WARNING - Subtype value ParquetReadSettings has no mapping, use base class FormatReadSettings.
+azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://management.azure.com/subscriptions/096184b6-7b9d-468d-8fc8-fa7dad32cbb2/resourceGroups/RSGRCU1LHCLD01/providers/Microsoft.DataFactory/factories/dafacu1lhcld01/pipelines?api-version=REDACTED&$skipToken=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'ebf2c31a-0345-11ef-9d0b-2cd02de65b34'
+    'User-Agent': 'azsdk-python-mgmt-datafactory/2.10.0 Python/3.8.18 (Linux-3.10.0-1160.105.1.el7.x86_64-x86_64-with-glibc2.2.5)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Expires': '-1'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-ratelimit-remaining-subscription-reads': '11969'
+    'x-ms-request-id': 'cedae0f2-f6e9-4e5e-8c77-58186a6d1a28'
+    'x-ms-routing-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'X-Cache': 'REDACTED'
+    'X-MSEdge-Ref': 'REDACTED'
+    'Date': 'Thu, 25 Apr 2024 20:53:52 GMT'
+    'Content-Length': '1046273'
+azure.mgmt.datafactory._serialization - WARNING - Subtype value ParquetReadSettings has no mapping, use base class FormatReadSettings.
+azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://management.azure.com/subscriptions/096184b6-7b9d-468d-8fc8-fa7dad32cbb2/resourceGroups/RSGRCU1LHCLD01/providers/Microsoft.DataFactory/factories/dafacu1lhcld01/pipelines?api-version=REDACTED&$skipToken=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'ed23098e-0345-11ef-9d0b-2cd02de65b34'
+    'User-Agent': 'azsdk-python-mgmt-datafactory/2.10.0 Python/3.8.18 (Linux-3.10.0-1160.105.1.el7.x86_64-x86_64-with-glibc2.2.5)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Expires': '-1'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-ratelimit-remaining-subscription-reads': '11989'
+    'x-ms-request-id': '2eb47231-34dc-4653-a53e-570588ac85c6'
+    'x-ms-routing-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'X-Cache': 'REDACTED'
+    'X-MSEdge-Ref': 'REDACTED'
+    'Date': 'Thu, 25 Apr 2024 20:53:54 GMT'
+    'Content-Length': '1137997'
+azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://management.azure.com/subscriptions/096184b6-7b9d-468d-8fc8-fa7dad32cbb2/resourceGroups/RSGRCU1LHCLD01/providers/Microsoft.DataFactory/factories/dafacu1lhcld01/pipelines?api-version=REDACTED&$skipToken=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'ee53bf4c-0345-11ef-9d0b-2cd02de65b34'
+    'User-Agent': 'azsdk-python-mgmt-datafactory/2.10.0 Python/3.8.18 (Linux-3.10.0-1160.105.1.el7.x86_64-x86_64-with-glibc2.2.5)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Expires': '-1'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-ratelimit-remaining-subscription-reads': '11985'
+    'x-ms-request-id': '68696a25-223e-42e0-ae7d-cd221bd8f35c'
+    'x-ms-routing-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'X-Cache': 'REDACTED'
+    'X-MSEdge-Ref': 'REDACTED'
+    'Date': 'Thu, 25 Apr 2024 20:53:56 GMT'
+    'Content-Length': '644941'
+azure.mgmt.datafactory._serialization - WARNING - Subtype value ParquetReadSettings has no mapping, use base class FormatReadSettings.
+azure.mgmt.datafactory._serialization - WARNING - Subtype value ParquetReadSettings has no mapping, use base class FormatReadSettings.
+azure.mgmt.datafactory._serialization - WARNING - Subtype value ParquetReadSettings has no mapping, use base class FormatReadSettings.
+azure.mgmt.datafactory._serialization - WARNING - Subtype value ParquetReadSettings has no mapping, use base class FormatReadSettings.
+azure.mgmt.datafactory._serialization - WARNING - Subtype value ParquetReadSettings has no mapping, use base class FormatReadSettings.
+azure.mgmt.datafactory._serialization - WARNING - Subtype value ParquetReadSettings has no mapping, use base class FormatReadSettings.
+azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://management.azure.com/subscriptions/096184b6-7b9d-468d-8fc8-fa7dad32cbb2/resourceGroups/RSGRCU1LHCLD01/providers/Microsoft.DataFactory/factories/dafacu1lhcld01/pipelines?api-version=REDACTED&$skipToken=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'ef3b89b2-0345-11ef-9d0b-2cd02de65b34'
+    'User-Agent': 'azsdk-python-mgmt-datafactory/2.10.0 Python/3.8.18 (Linux-3.10.0-1160.105.1.el7.x86_64-x86_64-with-glibc2.2.5)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Expires': '-1'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-ratelimit-remaining-subscription-reads': '11984'
+    'x-ms-request-id': 'bce992a0-226b-4103-ac3d-df6291358517'
+    'x-ms-routing-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'X-Cache': 'REDACTED'
+    'X-MSEdge-Ref': 'REDACTED'
+    'Date': 'Thu, 25 Apr 2024 20:53:57 GMT'
+    'Content-Length': '1033424'
+azure.mgmt.datafactory._serialization - WARNING - Subtype value ParquetReadSettings has no mapping, use base class FormatReadSettings.
+azure.mgmt.datafactory._serialization - WARNING - Subtype value ParquetReadSettings has no mapping, use base class FormatReadSettings.
+azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://management.azure.com/subscriptions/096184b6-7b9d-468d-8fc8-fa7dad32cbb2/resourceGroups/RSGRCU1LHCLD01/providers/Microsoft.DataFactory/factories/dafacu1lhcld01/pipelines?api-version=REDACTED&$skipToken=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'f0059e32-0345-11ef-9d0b-2cd02de65b34'
+    'User-Agent': 'azsdk-python-mgmt-datafactory/2.10.0 Python/3.8.18 (Linux-3.10.0-1160.105.1.el7.x86_64-x86_64-with-glibc2.2.5)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Expires': '-1'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-ratelimit-remaining-subscription-reads': '11987'
+    'x-ms-request-id': 'dd995ef6-7ac2-423e-ad57-c3d834948a94'
+    'x-ms-routing-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'X-Cache': 'REDACTED'
+    'X-MSEdge-Ref': 'REDACTED'
+    'Date': 'Thu, 25 Apr 2024 20:53:59 GMT'
+    'Content-Length': '487507'
+azure.mgmt.datafactory._serialization - WARNING - Subtype value ParquetReadSettings has no mapping, use base class FormatReadSettings.
+azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://management.azure.com/subscriptions/096184b6-7b9d-468d-8fc8-fa7dad32cbb2/resourceGroups/RSGRCU1LHCLD01/providers/Microsoft.DataFactory/factories/dafacu1lhcld01/pipelines?api-version=REDACTED&$skipToken=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'f0f478c2-0345-11ef-9d0b-2cd02de65b34'
+    'User-Agent': 'azsdk-python-mgmt-datafactory/2.10.0 Python/3.8.18 (Linux-3.10.0-1160.105.1.el7.x86_64-x86_64-with-glibc2.2.5)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Expires': '-1'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-ratelimit-remaining-subscription-reads': '11977'
+    'x-ms-request-id': 'd0ae7c08-90d0-4cd0-9ed6-a3dde064ccad'
+    'x-ms-routing-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'X-Cache': 'REDACTED'
+    'X-MSEdge-Ref': 'REDACTED'
+    'Date': 'Thu, 25 Apr 2024 20:54:00 GMT'
+    'Content-Length': '791416'
+azure.mgmt.datafactory._serialization - WARNING - Subtype value ParquetReadSettings has no mapping, use base class FormatReadSettings.
+azure.mgmt.datafactory._serialization - WARNING - Subtype value ParquetReadSettings has no mapping, use base class FormatReadSettings.
+azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://management.azure.com/subscriptions/096184b6-7b9d-468d-8fc8-fa7dad32cbb2/resourceGroups/RSGRCU1LHCLD01/providers/Microsoft.DataFactory/factories/dafacu1lhcld01/pipelines?api-version=REDACTED&$skipToken=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'f2057ac2-0345-11ef-9d0b-2cd02de65b34'
+    'User-Agent': 'azsdk-python-mgmt-datafactory/2.10.0 Python/3.8.18 (Linux-3.10.0-1160.105.1.el7.x86_64-x86_64-with-glibc2.2.5)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Expires': '-1'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-ratelimit-remaining-subscription-reads': '11939'
+    'x-ms-request-id': '56e295c6-2de9-4ad2-ae6e-ba38035531cc'
+    'x-ms-routing-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'X-Cache': 'REDACTED'
+    'X-MSEdge-Ref': 'REDACTED'
+    'Date': 'Thu, 25 Apr 2024 20:54:02 GMT'
+    'Content-Length': '637825'
+azure.mgmt.datafactory._serialization - WARNING - Subtype value ParquetReadSettings has no mapping, use base class FormatReadSettings.
+azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://management.azure.com/subscriptions/096184b6-7b9d-468d-8fc8-fa7dad32cbb2/resourceGroups/RSGRCU1LHCLD01/providers/Microsoft.DataFactory/factories/dafacu1lhcld01/pipelines?api-version=REDACTED&$skipToken=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'f331e246-0345-11ef-9d0b-2cd02de65b34'
+    'User-Agent': 'azsdk-python-mgmt-datafactory/2.10.0 Python/3.8.18 (Linux-3.10.0-1160.105.1.el7.x86_64-x86_64-with-glibc2.2.5)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Expires': '-1'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-ratelimit-remaining-subscription-reads': '11938'
+    'x-ms-request-id': '5451de94-8b29-4e52-9e34-0952634208c5'
+    'x-ms-routing-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'X-Cache': 'REDACTED'
+    'X-MSEdge-Ref': 'REDACTED'
+    'Date': 'Thu, 25 Apr 2024 20:54:04 GMT'
+    'Content-Length': '732770'
+azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://management.azure.com/subscriptions/096184b6-7b9d-468d-8fc8-fa7dad32cbb2/resourceGroups/RSGRCU1LHCLD01/providers/Microsoft.DataFactory/factories/dafacu1lhcld01/pipelines?api-version=REDACTED&$skipToken=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'f3e9008e-0345-11ef-9d0b-2cd02de65b34'
+    'User-Agent': 'azsdk-python-mgmt-datafactory/2.10.0 Python/3.8.18 (Linux-3.10.0-1160.105.1.el7.x86_64-x86_64-with-glibc2.2.5)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Expires': '-1'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-ratelimit-remaining-subscription-reads': '11984'
+    'x-ms-request-id': 'f1e01f3d-91b3-4936-8b6c-47fdc310c678'
+    'x-ms-routing-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'X-Cache': 'REDACTED'
+    'X-MSEdge-Ref': 'REDACTED'
+    'Date': 'Thu, 25 Apr 2024 20:54:05 GMT'
+    'Content-Length': '756672'
+azure.mgmt.datafactory._serialization - WARNING - Subtype value ParquetReadSettings has no mapping, use base class FormatReadSettings.
+azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://management.azure.com/subscriptions/096184b6-7b9d-468d-8fc8-fa7dad32cbb2/resourceGroups/RSGRCU1LHCLD01/providers/Microsoft.DataFactory/factories/dafacu1lhcld01/pipelines?api-version=REDACTED&$skipToken=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'f4e9aac4-0345-11ef-9d0b-2cd02de65b34'
+    'User-Agent': 'azsdk-python-mgmt-datafactory/2.10.0 Python/3.8.18 (Linux-3.10.0-1160.105.1.el7.x86_64-x86_64-with-glibc2.2.5)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Expires': '-1'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-ratelimit-remaining-subscription-reads': '11943'
+    'x-ms-request-id': '5652aa15-6891-4395-8902-9e82e8abf621'
+    'x-ms-routing-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'X-Cache': 'REDACTED'
+    'X-MSEdge-Ref': 'REDACTED'
+    'Date': 'Thu, 25 Apr 2024 20:54:08 GMT'
+    'Content-Length': '1074660'
+azure.mgmt.datafactory._serialization - WARNING - Subtype value ParquetReadSettings has no mapping, use base class FormatReadSettings.
+azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://management.azure.com/subscriptions/096184b6-7b9d-468d-8fc8-fa7dad32cbb2/resourceGroups/RSGRCU1LHCLD01/providers/Microsoft.DataFactory/factories/dafacu1lhcld01/pipelines?api-version=REDACTED&$skipToken=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'f64b1380-0345-11ef-9d0b-2cd02de65b34'
+    'User-Agent': 'azsdk-python-mgmt-datafactory/2.10.0 Python/3.8.18 (Linux-3.10.0-1160.105.1.el7.x86_64-x86_64-with-glibc2.2.5)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Expires': '-1'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-ratelimit-remaining-subscription-reads': '11982'
+    'x-ms-request-id': 'f9f1139b-69ce-46bd-a07c-318ad3558652'
+    'x-ms-routing-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'X-Cache': 'REDACTED'
+    'X-MSEdge-Ref': 'REDACTED'
+    'Date': 'Thu, 25 Apr 2024 20:54:10 GMT'
+    'Content-Length': '666438'
+azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://management.azure.com/subscriptions/096184b6-7b9d-468d-8fc8-fa7dad32cbb2/resourceGroups/RSGRCU1LHCLD01/providers/Microsoft.DataFactory/factories/dafacu1lhcld01/pipelines?api-version=REDACTED&$skipToken=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'f775f0f4-0345-11ef-9d0b-2cd02de65b34'
+    'User-Agent': 'azsdk-python-mgmt-datafactory/2.10.0 Python/3.8.18 (Linux-3.10.0-1160.105.1.el7.x86_64-x86_64-with-glibc2.2.5)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Expires': '-1'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-ratelimit-remaining-subscription-reads': '11951'
+    'x-ms-request-id': '6de84df4-d748-40db-a5a6-4a7f1623967d'
+    'x-ms-routing-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'X-Cache': 'REDACTED'
+    'X-MSEdge-Ref': 'REDACTED'
+    'Date': 'Thu, 25 Apr 2024 20:54:11 GMT'
+    'Content-Length': '619635'
+azure.mgmt.datafactory._serialization - WARNING - Subtype value ParquetReadSettings has no mapping, use base class FormatReadSettings.
+azure.mgmt.datafactory._serialization - WARNING - Subtype value ParquetReadSettings has no mapping, use base class FormatReadSettings.
+azure.mgmt.datafactory._serialization - WARNING - Subtype value ParquetReadSettings has no mapping, use base class FormatReadSettings.
+azure.mgmt.datafactory._serialization - WARNING - Subtype value ParquetReadSettings has no mapping, use base class FormatReadSettings.
+azure.mgmt.datafactory._serialization - WARNING - Subtype value ParquetReadSettings has no mapping, use base class FormatReadSettings.
+azure.mgmt.datafactory._serialization - WARNING - Subtype value ParquetReadSettings has no mapping, use base class FormatReadSettings.
+azure.mgmt.datafactory._serialization - WARNING - Subtype value ParquetReadSettings has no mapping, use base class FormatReadSettings.
+azure.mgmt.datafactory._serialization - WARNING - Subtype value ParquetReadSettings has no mapping, use base class FormatReadSettings.
+azure.mgmt.datafactory._serialization - WARNING - Subtype value ParquetReadSettings has no mapping, use base class FormatReadSettings.
+azure.mgmt.datafactory._serialization - WARNING - Subtype value ParquetReadSettings has no mapping, use base class FormatReadSettings.
+azure.mgmt.datafactory._serialization - WARNING - Subtype value ParquetReadSettings has no mapping, use base class FormatReadSettings.
+azure.mgmt.datafactory._serialization - WARNING - Subtype value ParquetReadSettings has no mapping, use base class FormatReadSettings.
+azure.mgmt.datafactory._serialization - WARNING - Subtype value ParquetReadSettings has no mapping, use base class FormatReadSettings.
+azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://management.azure.com/subscriptions/096184b6-7b9d-468d-8fc8-fa7dad32cbb2/resourceGroups/RSGRCU1LHCLD01/providers/Microsoft.DataFactory/factories/dafacu1lhcld01/pipelines?api-version=REDACTED&$skipToken=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'f8779034-0345-11ef-9d0b-2cd02de65b34'
+    'User-Agent': 'azsdk-python-mgmt-datafactory/2.10.0 Python/3.8.18 (Linux-3.10.0-1160.105.1.el7.x86_64-x86_64-with-glibc2.2.5)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Expires': '-1'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-ratelimit-remaining-subscription-reads': '11987'
+    'x-ms-request-id': '86921f93-1010-43f5-bfa3-020dd730554d'
+    'x-ms-routing-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'X-Cache': 'REDACTED'
+    'X-MSEdge-Ref': 'REDACTED'
+    'Date': 'Thu, 25 Apr 2024 20:54:13 GMT'
+    'Content-Length': '1180918'
+azure.mgmt.datafactory._serialization - WARNING - Subtype value ParquetReadSettings has no mapping, use base class FormatReadSettings.
+azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://management.azure.com/subscriptions/096184b6-7b9d-468d-8fc8-fa7dad32cbb2/resourceGroups/RSGRCU1LHCLD01/providers/Microsoft.DataFactory/factories/dafacu1lhcld01/pipelines?api-version=REDACTED&$skipToken=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'f9de6a6a-0345-11ef-9d0b-2cd02de65b34'
+    'User-Agent': 'azsdk-python-mgmt-datafactory/2.10.0 Python/3.8.18 (Linux-3.10.0-1160.105.1.el7.x86_64-x86_64-with-glibc2.2.5)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Expires': '-1'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-ratelimit-remaining-subscription-reads': '11966'
+    'x-ms-request-id': '6d0d364d-45fe-42ce-bb0f-ecc3e176ac0e'
+    'x-ms-routing-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'X-Cache': 'REDACTED'
+    'X-MSEdge-Ref': 'REDACTED'
+    'Date': 'Thu, 25 Apr 2024 20:54:15 GMT'
+    'Content-Length': '738915'
+azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://management.azure.com/subscriptions/096184b6-7b9d-468d-8fc8-fa7dad32cbb2/resourceGroups/RSGRCU1LHCLD01/providers/Microsoft.DataFactory/factories/dafacu1lhcld01/pipelines?api-version=REDACTED&$skipToken=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'fad00096-0345-11ef-9d0b-2cd02de65b34'
+    'User-Agent': 'azsdk-python-mgmt-datafactory/2.10.0 Python/3.8.18 (Linux-3.10.0-1160.105.1.el7.x86_64-x86_64-with-glibc2.2.5)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Expires': '-1'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-ratelimit-remaining-subscription-reads': '11968'
+    'x-ms-request-id': '03597379-d959-4d6e-a304-0056c6d7aeb7'
+    'x-ms-routing-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'X-Cache': 'REDACTED'
+    'X-MSEdge-Ref': 'REDACTED'
+    'Date': 'Thu, 25 Apr 2024 20:54:17 GMT'
+    'Content-Length': '637150'
+azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://management.azure.com/subscriptions/096184b6-7b9d-468d-8fc8-fa7dad32cbb2/resourceGroups/RSGRCU1LHCLD01/providers/Microsoft.DataFactory/factories/dafacu1lhcld01/pipelines?api-version=REDACTED&$skipToken=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'fbc5de6c-0345-11ef-9d0b-2cd02de65b34'
+    'User-Agent': 'azsdk-python-mgmt-datafactory/2.10.0 Python/3.8.18 (Linux-3.10.0-1160.105.1.el7.x86_64-x86_64-with-glibc2.2.5)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Pragma': 'no-cache'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Expires': '-1'
+    'x-ms-correlation-request-id': 'REDACTED'
+    'x-ms-ratelimit-remaining-subscription-reads': '11937'
+    'x-ms-request-id': '37ec3931-342c-4433-aee7-cd15fe30d119'
+    'x-ms-routing-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'X-Cache': 'REDACTED'
+    'X-MSEdge-Ref': 'REDACTED'
+    'Date': 'Thu, 25 Apr 2024 20:54:18 GMT'
+    'Content-Length': '725184'
