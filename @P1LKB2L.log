@@ -1,0 +1,99 @@
+[dsadmbcp_desa@pcdedged02 DSEngine]$ sh /desa/bcp/ctrl/ksh/PRC_EjecutaJobs.ksh CSCO_COLFIN_RDT160 CRDV
+Este es un sistema computacional oficial y es propiedad del BCP. Su acceso es unicamente para usuarios autorizados. Esta prohibido e                   l acceso para personas no autorizadas. Los usuarios (autorizados y no autorizados) no tienen garantizada la privacidad ni explicita                     ni implicitamente. Algunos o todos los usuarios del sistema pueden verse sujetos a las siguientes acciones: interceptacion, monitor                   eo, grabacion, inspeccion e investigacion por el personal de seguridad, auditoria, inspectorado y legal. El mal uso o el uso no auto                   rizado del sistema puede llevar a una llamada de atencion de la administracion y penalidades civiles o criminales. Al acceder al sis                   tema Ud. demuestra que se encuentra al tanto de lo establecido anteriormente asi como de las normas y politicas de la empresa y acep                   ta las condiciones de uso. Descontinue el uso si es que no se encuentra de acuerdo con las condiciones establecidas anteriormente.
+
+
+==========================================================
+        CDO BCP - EJECUCION DE PROCESOS CLOUD
+        Banco de Credito del Peru
+
+        Iniciando Ejecucion de Job:
+           Nombre Fuente  : CSCO_COLFIN_RDT160
+           Modulo         : CRDV
+           Fecha Proceso  : 2024-04-15
+           Fecha Ejecucion: 20240425_213247
+           Ambiente       : desa
+==========================================================
+
+
+0.- ( 2024-04-25 21:32:48 ) -> VERIFICA TIPO DE PROCESO.
+CSCO_COLFIN_RDT160
+CRDV
+DSTG
+        -> Proceso Job DATASTAGE LHCL
+
+
+1.- ( 2024-04-25 21:32:49 ) -> VALIDACION DE EJECUCION.
+        -> OK - El Job <SEQ_CSCO_COLFIN_RDT160_CRDV_01> se encuentra en el proyecto <D_BCP_RDV_CSCO>.
+
+
+2.- ( 2024-04-25 21:32:52 ) -> CHEQUEANDO/RESETEANDO JOBS.
+        -> OK - SECUENCIA: 1 | JOB: SEQ_CSCO_COLFIN_RDT160_CRDV_01 | PROYECTO: D_BCP_RDV_CSCO
+        -> OK - El job puede ser ejecutado.
+
+
+3.- ( 2024-04-25 21:32:52 ) -> EJECUTANDO JOBS.
+
+-----------------------------------------------------------
+   Numero de SECUENCIA:    1
+   Nombre de PROYECTO:     D_BCP_RDV_CSCO
+   Nombre de JOB:          SEQ_CSCO_COLFIN_RDT160_CRDV_01
+   Codigo MULTI_INSTANCIA:
+-----------------------------------------------------------
+
+
+3.1.- ( 2024-04-25 21:32:52 ) -> OBTENIENDO PARAMETROS DATASTAGE.
+        -> OK - Se creo archivo de PARAMETROS.
+        -> Parametros: <-param PRM_CODIGO_REGLA="RCPT_CSCO_COLFIN_RDT160_001" -param PRM_FECHA_RUTINA="2024-04-15" -param PRM_HOST_P                   ATH_INTERFAZ="CSP1.CC.CC.TBC0." -param PRM_HOST_SD_EXTR_PATH_INTERFAZ="TSD1.LK.LK.DBC0." -param PRM_HOST_TRAMA="245">
+
+
+3.2.- ( 2024-04-25 21:32:54 ) -> EJECUTANDO JOBS.
+        -> PRM_ENABLE_ASYNC_FLAGS: 0
+        Ejecutando dsjob_run...
+        Ejecutando dsjob_status...
+        -> OK - El Job <SEQ_CSCO_COLFIN_RDT160_CRDV_01> se ejecuto correctamente.
+
+
+3.3.- ( 2024-04-25 21:34:30 ) -> REGISTRO/REPORTE EJECUCIÓN.
+
+        -> OK - Se registro la ejecucion en la tabla ADMIN.CT_EJECUCIONPROCESOCARGA_LHCL
+
+        -------------------------------------------------
+        -> PROCESO          : CSCO_COLFIN_RDT160
+        -> MODULO           : CRDV
+        -> SECUENCIA        : 1
+        -> JOB              : SEQ_CSCO_COLFIN_RDT160_CRDV_01
+        -> FECHA_RUTINA     : 2024-04-15
+        -> INICIO EJECUCION : 2024-04-25 21:32:54
+        -> FIN EJECUCION    : 2024-04-25 21:34:30
+        -> ESTADO EJECUCION : (Finished OK)
+        -> TIPO EJECUCION   : RUTINA
+        -------------------------------------------------
+
+
+4.- ( 2024-04-25 21:34:31 ) -> GENERANDO LOG DE EJECUCIÓN.
+
+        -> Log de ejecucion OK
+        -> Ruta: /desa/bcp/ctrl/log/CSCO_COLFIN_RDT160_CRDV_2024-04-15_20240425_213249.lhcl_dstg_log
+
+
+5.- ( 2024-04-25 21:34:31 ) -> LIMPIANDO TEMPORALES.
+        -> Limpieza OK
+
+
+======================= FIN  =============================
+
+
+--------------- Codigo de Finalizacion -------------------
+
+Flag_Rtn_Check -> 0
+Flag_Rtn_Reset -> 0
+Flag_Rtn_Prm   -> 0
+Flag_Rtn_Exe   -> 0
+Flag_Rtn_Rpt   -> 0
+Flag_Rtn_Log   -> 0
+
+======================= FIN  =============================
+
+---------------------------------------
+*** Codigo SSH del JOB: 0
+---------------------------------------
